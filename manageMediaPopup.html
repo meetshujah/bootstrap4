@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<title>IPT Force | Clients</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" /><link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+  <script src="assets/js/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+
+
+<!-- Create Package -->
+<div class="modal fade" id="createpckg" tabindex="-1" role="dialog" aria-labelledby="createpckg" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Create New Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g clip-path="url(#clip0)">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M6.30305 6.99951L0.751587 12.551L2.44864 14.248L8.00011 8.69657L13.5516 14.248L15.2486 12.551L9.69716 6.99951L15.2486 1.44803L13.5516 -0.249023L8.00011 5.30246L2.44864 -0.249008L0.751587 1.44805L6.30305 6.99951Z" fill="#D4DBE8"/>
+				</g>
+				<defs>
+				<clipPath id="clip0">
+				<rect width="16" height="17.141" fill="white" transform="translate(0 0.140625)"/>
+				</clipPath>
+				</defs>
+			</svg>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="row">
+       	<div class="col-lg-6 col-md-6">
+       		<div class="slct-group">
+       			<label class="text-size-14">Active</label>
+       			<select>
+       				<option>Yes</option>
+       				<option>No</option>
+       			</select>
+       		</div>
+       		<div class="head-group">
+       			<h4>Package Identity</h4>
+       			<p>Please give a name and an Indentifier to the new Package</p>
+       			<div class="row ct-pck01">
+	       			<div class="col-lg-6 col-md-6">
+	       				<label class="text-size-14">Package Name</label>
+	       				<input type="text" name="">
+	       			</div>
+	       			<div class="col-lg-6 col-md-6 pl-0">
+	       				<label class="text-size-14">Package ID</label>
+	       				<input type="text" name="">
+	       			</div>
+	       		</div>
+       		</div>
+       		<div class="head-group">
+       			<h4>Price & Billing</h4>
+       			<p id="ct-txt2">How frequently are users going to charged?</p>
+       			<div class="row ct-pck1">
+	       			<div class="col-lg-6 col-md-6">
+	       				<label class="text-size-14">Price</label>
+	       				<input type="text" name="">
+	       			</div>
+	       			<div class="col-lg-6 col-md-6 pl-0">
+	       				<label class="text-size-14">Currency</label>
+	       				<select>
+		       				<option>USD</option>
+		       				<option>PKR</option>
+		       			</select>
+	       			</div>
+	       		</div>
+	       		<div class="row ct-pck2">
+	       			<div class="col-lg-6 col-md-6">
+	       				<label class="text-size-14">Charge Users </label>
+	       				<select>
+		       				<option>Yes</option>
+		       				<option>No</option>
+		       			</select>
+	       			</div>
+	       			<div class="col-lg-6 col-md-6 pl-0">
+	       				<label class="text-size-14">Every</label>
+	       				<select>
+		       				<option>Month</option>
+		       				<option>Year</option>
+		       			</select>
+	       			</div>
+	       		</div>
+	       		<button>ADD PACKAGE </button>
+       		</div>
+       	</div>
+       	<div class="col-lg-6 col-md-6">
+       		<div class="ct-pck3">
+       			<h6>Trial</h6>
+       			<p id="ct-txt3">Is there a trial version of this Package?</p>
+       		</div>
+       		<div class="slct-group">
+       			<label class="text-size-14">Trial Type</label>
+       			<select>
+       				<option>No Trial</option>
+       				<option>Trial</option>
+       			</select>
+       		</div>
+       		<div class="head-group">
+       			<h4>Package Identity</h4>
+       			<ul>
+       				<li><label class="pckg-container">image
+						  <input type="radio" name="radio">
+						  <span class="pckg-checkmark"></span>
+						</label>
+					</li>
+       				<li>
+       					<label class="pckg-container">text
+						  <input type="radio" checked="checked" name="radio">
+						  <span class="pckg-checkmark"></span>
+						</label>
+       				</li>
+       				<li>
+       					<label class="pckg-container">video
+						  <input type="radio" name="radio">
+						  <span class="pckg-checkmark"></span>
+						</label>
+       				</li>
+       			</ul>
+       		</div>
+       		<div class="txtarea-group">
+       			<label class="text-size-14">Description</label>
+       			<textarea></textarea>
+       		</div>
+       		<div class="pckge-slider-inner modal-area">
+				<div class="pckge-slider-txt">
+					<h2>GOLD <span>PACKAGE</span></h2>
+					<p>$50.00</p>
+					<span>Per Month</span>
+				</div>
+				<div class="pckge-slider-txt2">
+					<ul>
+						<li>Lorem ipsum dolor si amet, consectetur adipiscing elit.</li>
+						<li>Lorem ipsum dolor si amet, consectetur adipiscing elit.</li>
+						<li>Lorem ipsum dolor sit</li>
+					</ul>
+				</div>
+       		</div>
+       	</div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Create Package -->
+<div class="modal fade " id="uploadVideoDialog" tabindex="-1" role="dialog" aria-labelledby="AddClientModal" aria-hidden="true" data-backdrop="static">
+	<div class="modal-dialog modal-dialog-centered custom-modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title text-bold text-dark" id="exampleModalLabel">Add Video to Motivational Category</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  <g clip-path="url(#clip0)">
+				  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30305 6.99951L0.751587 12.551L2.44864 14.248L8.00011 8.69657L13.5516 14.248L15.2486 12.551L9.69716 6.99951L15.2486 1.44803L13.5516 -0.249023L8.00011 5.30246L2.44864 -0.249008L0.751587 1.44805L6.30305 6.99951Z" fill="#D4DBE8"/>
+				  </g>
+				  <defs>
+				  <clipPath id="clip0">
+				  <rect width="16" height="17.141" fill="white" transform="translate(0 0.140625)"/>
+				  </clipPath>
+				  </defs>
+			  </svg>
+		  </button>
+		</div>
+		<div class="modal-body p-4 pb-0">
+            <div class="row">
+                <div class="col">
+                    <div class="video-container">
+                        <video class="video">
+                            <source src="http://e14aaeb709f7cde1ae68-a1d0a134a31b545b257b15f8a8ba5726.r70.cf3.rackcdn.com/projects/31432/1427815464209-bf74131a7528d0ea5ce8c0710f530bb5/1280x720.mp4" type="video/mp4" />
+                        </video>
+                      <div class="playpause"></div>
+                      <div class="trash-video"></div>
+                    </div>
+                </div>
+            </div>
+		 <div class="row">
+			 <div class="col-lg-6 col-md-6">
+				 <div>
+					 <label class="text-size-14">Video Name</label>
+					 <input type="text" class="form-control" placeholder="Lorem ipsum"/>
+				 </div>
+				 
+			 </div>
+			 <div class="col-lg-6 col-md-6">
+				<div class="dropdown">
+					<label class="text-size-14">Exercise attachment</label>
+					<select class="form-control">
+						<option>Walking lunges</option>
+						<option>Walking lunges 1</option> 
+					</select>
+				</div>
+				
+			</div>
+			
+		 </div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="upload-custom">
+                    <label class="text-size-14">Thumbnail</label>
+                    <div>
+                        <div class="app-image mt-0 mb-4">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <input id="applogo" type="file" onchange="document.getElementById('applogo-pic').src = window.URL.createObjectURL(this.files[0])">
+
+                                            <img id="applogo-pic">
+                                            <div class="d-flex justify-content-start align-items-center mb-2">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    <path d="M14.1666 6.66667L9.99998 2.5L5.83331 6.66667" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    <path d="M10 2.5V12.5" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                <span class="text-size-14 text-semi-bold text-dark">Upload</span>
+                                            </div>
+                                        
+                                        <div class="ct-chnge-img" id="ct-chnge-img-btm4">
+                                                
+                                                <span>Change Image</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+				
+			</div>
+			<div class="col-lg-6 col-md-6 form-group text-right">
+                <label class="text-size-14"></label>
+                <button type="button" class="w-50 align-items-center" >Upload</button>
+		   </div>
+		   
+		</div>
+		
+		
+			
+	
+		</div>
+	  </div>
+	</div>
+  </div>
+<script src="assets/js/2.1.3jquery.min.js"></script> 
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/bootstrap-colorpicker.js"></script> 
+<script type="text/javascript" src="assets/js/slick.js"></script> 
+<script type="text/javascript" src="assets/js/functions.js"></script> 
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="assets/js/dataTables.min.js"></script>
+<script src="assets/js/dataTables.bootstrap4.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+    $('.video').parent().click(function () {
+  if($(this).children(".video").get(0).paused){        $(this).children(".video").get(0).play();   $(this).children(".playpause").fadeOut();
+    }else{       $(this).children(".video").get(0).pause();
+  $(this).children(".playpause").fadeIn();
+    }
+});
+$('#uploadVideoDialog').modal('show');
+} );
+</script>
+
+</body>
+</html>

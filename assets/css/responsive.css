@@ -1,0 +1,272 @@
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+}
+@media only screen and (max-width: 1600px) {
+  ul.tabs-custom-nav.home li a {
+    font-size: 14px !important;
+    padding: 5px !important;
+  }
+  .custom-header-button {
+    padding: 1px 13px;
+    font-size: 12px;
+  }
+  .main-head {
+    font-size: 18px;
+  }
+  .diet-btn {
+    padding: 6px 7px;
+    font-size: 8px;
+  }
+  #Diets .d-flex .col-md-6,
+  #Workouts .col-md-6,
+  .resposiveDietTemplate
+    .tab-content-panel
+    .d-flex
+    > .col-4.triggerResponsiveWidth {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .resposiveDietTemplate1 .col-6.responsiveDiv {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .resposiveDietTemplate1 .d-flexBodyRes {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .resposiveDietTemplate .tab-content-panel > .d-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #Workouts .row.subHeader .col-6 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  #Questionare img {
+    height: 100px;
+  }
+  .app-image ul {
+    flex-wrap: wrap;
+  }
+  .checkin .app-image ul li {
+    width: 124px !important;
+  }
+  .aw-title {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+  .text-size-14 {
+    font-size: 12px !important;
+  }
+  .text-size-16 {
+    font-size: 14px !important;
+  }
+  .text-size-18 {
+    font-size: 16px !important;
+  }
+  .text-size-20 {
+    font-size: 18px !important;
+  }
+  .aw-calories .bg-week.light {
+    width: 51px;
+  }
+  .aw-calories .topLabel-bg {
+    font-size: 12px;
+  }
+  .aw-calories .bottomLabel-bg {
+    font-size: 12px;
+  }
+  .left-menu-bar {
+    width: 175px;
+  }
+  .left-menu-bar ul li:nth-child(12) {
+    margin: 20px 0px 0;
+    opacity: 1 !important;
+  }
+  div#home-sec {
+    padding: 0 20px 19px 35px;
+  }
+  div#manage-packages_wrapper .col-sm-12 {
+    padding: 0 30px 0 10px;
+  }
+  .app-image ul li {
+    width: 48% !important;
+    float: left;
+  }
+  .app-image ul li:nth-child(3) {
+    /* width: 100% !important; */
+  }
+  .pckge-slider-txt2 ul {
+    margin: 0;
+  }
+
+  .pckge-slider {
+    position: relative;
+    left: -15px;
+    height: 210px;
+  }
+
+  .dashboard-sec-rght-sec {
+    padding: 0 0px 0 20px;
+  }
+  .left-menu-bar {
+    padding: 15px 0px 0;
+  }
+  .left-menu-bar ul li a {
+    font-size: 12px;
+    padding: 9px 10px;
+  }
+  .ct-close-menu {
+    position: absolute;
+    right: 5px;
+    top: 70px;
+    cursor: pointer;
+  }
+  .left-menu-bar h1 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  .left-menu-bar-menu {
+    width: 5.9% !important;
+  }
+  .dashboard-sec-menu {
+    max-width: 100% !important;
+    flex: 100% !important;
+    margin-left: 6% !important;
+  }
+  .rSlider {
+    width: 81%;
+  }
+  .new-subscriber-pic span {
+    font-size: 11px;
+  }
+  .red-box-home {
+    width: 48px;
+    height: 44px;
+    line-height: 57px;
+  }
+  .inner-box-home p {
+    font-size: 15px;
+    padding: 0 0 0 15px;
+  }
+  .inner-box-home-txt h2 {
+    font-size: 25px;
+  }
+  .new-subscriber-list h5 {
+    font-size: 15px;
+  }
+  .ct-pckge {
+    font-size: 7px;
+    width: 56px;
+  }
+  .red-box-home.home-lst-icon {
+    line-height: 62px;
+  }
+  .new-subscriber-list ul li svg {
+    width: 15px;
+  }
+  .new-subscriber-list ul li {
+    display: inline-block;
+    width: 30%;
+  }
+  .inner-box-home-txt span {
+    font-size: 9px;
+  }
+  .pckge-slider .slick-track {
+    margin: 0 0 0 -30.5%;
+  }
+  .more-opt,
+  .more-opt2,
+  .more-opt3 {
+    left: -100px;
+  }
+  .responsiveWorkout .col-6 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .userCard .row {
+    margin-left: -5px;
+    margin-right: -15px;
+  }
+  #home-sec .row {
+    margin-left: -5px;
+    margin-right: 0px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col,
+  .col-auto,
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm,
+  .col-sm-auto,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md,
+  .col-md-auto,
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg,
+  .col-lg-auto,
+  .col-xl-1,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl,
+  .col-xl-auto {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+}
+@media only screen and (max-width: 1024px) {
+}
